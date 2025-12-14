@@ -142,9 +142,45 @@ console.table({name: 'kote' , age: 19})
 const x = { name: 'alex', age: 22 };
 
 console.warn(x);
-
 */
 
 
- 
+/** 
+let x, y, name;
+ x = 14;
+ y = 11;
+ name = 'kote'
+ console.log(x,y,name)
+*/
+
+/* 
+const firstName = 'lolita';
+
+console.log(firstName, 'is', typeof firstName);
+////
+const age = 19;
+const output = age
+
+console.log(age, 'is' ,typeof output)
+////
+
+const carName = null;
+const output2 = carName;
+
+console.log(output2, 'is', typeof output2)
+////
+
+const numbers = [1,2,3,4,5];
+const output3 = numbers;
+
+console.log(output3, typeof output3)
+////
+
+function fn(){
+  console.log('hello');
+}
+const output4 = fn;
+console.log(output4, typeof output4)
+///
+*/
 
