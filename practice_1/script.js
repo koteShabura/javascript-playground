@@ -134,4 +134,17 @@ console.log(b)
 console.log(c)
 */
 
+/*
+console.warn('sup')
+
+console.table({name: 'kote' , age: 19})
+
+const x = { name: 'alex', age: 22 };
+
+console.warn(x);
+
+*/
+
+
+ 
 
