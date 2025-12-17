@@ -16,7 +16,7 @@ console.log(person)
 
 
 ///
-const name = 'nick';
+/**const name = 'nick';
 const age = 26;
 
 ///
@@ -28,5 +28,22 @@ const person = {
 let newName = name; 
 newName = 'john'
 console.log(name, newName);
+ */
 
 ///
+
+let age;
+age = 55;
+
+function fn(age,senior,adult,minor){
+if (age>= 80){
+  return senior;
+}else if (age>=40){
+  return adult;
+} else{
+  return minor;
+}
+};
+
+let result = fn(age,"senior","adult","minor");
+console.log(result)
