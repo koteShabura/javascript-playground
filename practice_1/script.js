@@ -163,7 +163,11 @@ const output = age
 
 console.log(age, 'is' ,typeof output)
 ////
-
+let x, y, name;
+ x = 14;
+ y = 11;
+ name = 'kote'
+ console.log(x,y,name)
 const carName = null;
 const output2 = carName;
 
