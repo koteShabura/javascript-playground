@@ -27,9 +27,9 @@ x = s.charAt(0) // same as x = s[1];
 
 x = s.indexOf('d')
 
+x = s.substring(0, 5); // starts from 0 and ends with 5
 
-
-
-
+x = s.substring(5); //starts from 5 and keep going left ro right
+ 
 console.log(x)
 
