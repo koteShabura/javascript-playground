@@ -54,3 +54,13 @@ console.log(output5, typeof output5)
 // -------------------
 // -------------------
 // -------------------
+
+const person ={
+  name:'kote',
+  number:'123 45 67 89',
+  email:'kshaburishvili@gmail.com'
+}
+
+person.age = '20';
+person.email = 'not found'
+console.log(person)
